@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.1 — 11 October 2026.
+Version 1.2.2 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -27,8 +27,12 @@ Routine status messages disappear after 4.5 seconds and the status panel collaps
 
 Block details now open on demand, category guidance is behind information buttons, and literature thesis additions prefer available periods without research overlap. Plans above 120 EC show diploma-supplement guidance.
 
-Version 1.2.1 simplifies course details, uses research days per week and a single 0–8-week leave/pause field, adds explicit course metadata and period summaries, and presents curriculum checks as a checklist.
+Version 1.2.2 simplifies course details, uses research days per week and a single 0–8-week leave/pause field, adds explicit course metadata and period summaries, and presents curriculum checks as a checklist.
 
-Version 1.2.1 groups RAS under compulsory courses, combines major/minor legend entries, applies a coordinated pastel palette to the canvas and PDF, and refines the course details timing and action layout.
+Version 1.2.2 groups RAS under compulsory courses, combines major/minor legend entries, applies a coordinated pastel palette to the canvas and PDF, and refines the course details timing and action layout.
 
 Reset form now clears all settings and selections after confirmation, with Undo available for recovery.
+
+Version 1.2.2 applies Clear & distinct with muted teal research projects; separates yellow overlap caution from red high course workload; exposes study-guide links directly; and uses green checkmarks/red crosses in curriculum checks.
+
+Version 1.2.2 adopts the Clear & distinct palette with muted teal research projects. Workload uses yellow overlap guidance and red high-workload guidance; checklist boxes use a white check on dark green or white X on red. Study-guide links are directly visible. Course categories start collapsed when settings load or a saved plan opens, with compact added-count badges and selected-course Edit buttons.
