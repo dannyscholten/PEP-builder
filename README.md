@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.1.1 — 11 October 2026.
+Version 1.1.2 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -20,3 +20,5 @@ Readable development sources and the standalone offline build are kept in the lo
 The major research project can start in Year 1 P5–P6 or Year 2 P1–P3. Older Year 2 P4 plans are retained with a warning so the start can be corrected.
 
 The top toolbar groups Save/Open, the two exports, and Undo/Redo/Reset. Help reopens the introduction. PDF export is visibly disabled below 120 EC.
+
+Help uses the exact action labels. Status messages are shown in red directly below the action buttons. The PDF credit threshold is explained in the button tooltip.
