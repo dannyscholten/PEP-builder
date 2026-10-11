@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.6 — 11 October 2026.
+Version 1.2.7 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -44,3 +44,5 @@ Version 1.2.4 places end dates directly below start dates, displays duration sum
 Version 1.2.5 places warning explanations below the final timeline wherever space remains, creating continuation pages only when needed.
 
 Version 1.2.6 clarifies the Theory part and Practical part period selectors for Didactics of Science Supervision, with months shown for each period. Both parts may share a period.
+
+Version 1.2.7 requires deliberate selection of both Didactics periods. Confirm, file saving and exports are disabled until both are selected; browser autosave preserves unfinished edits. Each part has an information button with teaching guidance. Existing saved period choices are preserved.
