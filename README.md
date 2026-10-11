@@ -6,4 +6,4 @@ This repository is separate from the DDS PEP tool. All curriculum drafts are han
 
 Published with GitHub Pages from the main branch root.
 
-Version 1.0.0 — 11 October 2026.
+Version 1.0.1 — 11 October 2026.
