@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.3 — 11 October 2026.
+Version 1.2.4 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -9,7 +9,7 @@ Choose your specialisation, path where applicable, and previous education. Requi
 - Planning uses recurring Year 1 and Year 2, September to August, rather than an absolute calendar year. Flexible blocks start on month boundaries and end at the nearest month end after duration calculation. Study-guide links remain annual references.
 - A short introduction can be skipped or reopened with Help. Undo and Redo restore recent changes. Autosave stores your plan in this browser; Save my curriculum planning downloads a portable draft.
 - On mobile, switch between a course list and a calendar. Add courses and edit blocks through drawers.
-- Export PDF becomes available at 120 EC. The A3 landscape PDF contains only the selected timeline, workload overview, year totals and applicable warnings. It normally uses one page per year, with extra pages for long timelines or warnings.
+- Export PDF becomes available at 120 EC. The A3 landscape PDF contains only the selected timeline, workload overview, year totals and applicable warnings. It fits both years onto one landscape page when the rows fit legibly; dense timelines and detailed warnings use additional pages.
 - Export for PEP approval downloads a schema 2 draft that can be opened directly with **Open draft** in the [DDS PEP generator](https://dannyscholten.github.io/dds-pep/2026/). Complete the personal and research details there, then follow the coordinator and examination board approval process. An exported plan is not an approval.
 - A Year 1 major start maps to Part I + Part II registration; a Year 2 start maps to the single 48 EC variant. PEP export requires the compulsory courses because the PEP generator always includes them.
 
@@ -38,3 +38,5 @@ Version 1.2.2 applies Clear & distinct with muted teal research projects; separa
 Version 1.2.2 adopts the Clear & distinct palette with muted teal research projects. Workload uses red overlap guidance and red high-workload guidance; checklist boxes use a white check on dark green or white X on red. Study-guide links are directly visible. Course categories start collapsed when settings load or a saved plan opens, with compact added-count badges and selected-course Edit buttons.
 
 Version 1.2.3 makes overlap warnings red in the canvas, detailed warning overview and PDF, while preserving their separate explanations.
+
+Version 1.2.4 places end dates directly below start dates, displays duration summaries, moves research days and leave into More options, simplifies explanatory text, and spells out Alpha/gamma electives in the legend. PEP export targets the verified current form 0.9.0 / schema 2 and includes target version metadata.
