@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.4 — 11 October 2026.
+Version 1.2.5 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -40,3 +40,5 @@ Version 1.2.2 adopts the Clear & distinct palette with muted teal research proje
 Version 1.2.3 makes overlap warnings red in the canvas, detailed warning overview and PDF, while preserving their separate explanations.
 
 Version 1.2.4 places end dates directly below start dates, displays duration summaries, moves research days and leave into More options, simplifies explanatory text, and spells out Alpha/gamma electives in the legend. PEP export targets the verified current form 0.9.0 / schema 2 and includes target version metadata.
+
+Version 1.2.5 places warning explanations below the final timeline wherever space remains, creating continuation pages only when needed.
