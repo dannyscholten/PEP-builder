@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.2 — 11 October 2026.
+Version 1.2.3 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -33,6 +33,8 @@ Version 1.2.2 groups RAS under compulsory courses, combines major/minor legend e
 
 Reset form now clears all settings and selections after confirmation, with Undo available for recovery.
 
-Version 1.2.2 applies Clear & distinct with muted teal research projects; separates yellow overlap caution from red high course workload; exposes study-guide links directly; and uses green checkmarks/red crosses in curriculum checks.
+Version 1.2.2 applies Clear & distinct with muted teal research projects; separates red overlap guidance from red high course workload; exposes study-guide links directly; and uses green checkmarks/red crosses in curriculum checks.
 
-Version 1.2.2 adopts the Clear & distinct palette with muted teal research projects. Workload uses yellow overlap guidance and red high-workload guidance; checklist boxes use a white check on dark green or white X on red. Study-guide links are directly visible. Course categories start collapsed when settings load or a saved plan opens, with compact added-count badges and selected-course Edit buttons.
+Version 1.2.2 adopts the Clear & distinct palette with muted teal research projects. Workload uses red overlap guidance and red high-workload guidance; checklist boxes use a white check on dark green or white X on red. Study-guide links are directly visible. Course categories start collapsed when settings load or a saved plan opens, with compact added-count badges and selected-course Edit buttons.
+
+Version 1.2.3 makes overlap warnings red in the canvas, detailed warning overview and PDF, while preserving their separate explanations.
