@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.1.4 — 11 October 2026.
+Version 1.2.0 — 11 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -26,3 +26,5 @@ Help uses the exact action labels. Status messages are shown in red directly bel
 Routine status messages disappear after 4.5 seconds and the status panel collapses when empty. Errors and unresolved warnings persist. The calendar reuses available rows across categories; category affinity is preferred among free rows. RAS stays in its own top row. PDF export uses the same row arrangement.
 
 Block details now open on demand, category guidance is behind information buttons, and literature thesis additions prefer available periods without research overlap. Plans above 120 EC show diploma-supplement guidance.
+
+Version 1.2.0 simplifies course details, uses research days per week and a single 0–8-week leave/pause field, adds explicit course metadata and period summaries, and presents curriculum checks as a checklist.
