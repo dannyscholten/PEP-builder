@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.9 — 15 October 2026.
+Version 1.2.10 — 16 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -50,3 +50,5 @@ Version 1.2.7 requires deliberate selection of both Didactics periods. Confirm, 
 Version 1.2.8 keeps the missing-Didactics-period warning in the main overview without duplicating it in course details. Workload sections are titled Workload or overlap issues and omit the legend in the planner and PDF.
 
 Version 1.2.9 removes the duplicate Teaching periods box from Didactics details. Adding a course or project with a valid default schedule returns directly to the canvas after choosing the year. Didactics details open immediately only while its required periods are missing. New unlisted courses return to the canvas after their own form is completed. Clicking a placed course still opens its details.
+
+Version 1.2.10 fixes literature-thesis default placement: it considers every permitted month start, including May, and favours a non-summer placement among options with the same research overlap. A Year 2 September major ending in April is therefore followed by a May–June thesis, rather than June–July. Existing saved placements remain unchanged.
