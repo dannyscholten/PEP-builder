@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.11 — 16 October 2026.
+Version 1.2.12 — 16 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -56,3 +56,5 @@ Version 1.2.10 fixes literature-thesis default placement: it considers every per
 Version 1.2.11 asks for a literature-thesis start month whenever no research-free two-month placement fits outside July and August. The thesis stays unplaced until the student chooses, and browser autosave preserves the unfinished choice.
 
 The planner now uses the PEP 0.9.1 / DDS-2026-2027.10 composition baseline and schema 2 export. Downloaded files were tested through the live tool’s Open draft workflow for split and single major routes, preserving 120 EC and selections without import changes. Host details still need completion in PEP 0.9.1.
+
+Version 1.2.12 adds a direct link to the official DDS Teaching and Examination Regulations 2026–2027 immediately below the planner title. The link is the PDF currently provided by the programme’s VU Study Guide.
