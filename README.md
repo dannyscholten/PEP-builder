@@ -1,6 +1,6 @@
 # Personal Education Plan Builder
 
-Version 1.2.13 — 16 October 2026.
+Version 1.2.14 — 16 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -60,3 +60,5 @@ The planner now uses the PEP 0.9.1 / DDS-2026-2027.10 composition baseline and s
 Version 1.2.12 adds a direct link to the official DDS Teaching and Examination Regulations 2026–2027 immediately below the planner title. The link is the PDF currently provided by the programme’s VU Study Guide.
 
 Release 1.2.13 adds contextual help beside the course bar and canvas titles. Research details label optional settings as Days per week & leave with the current values visible while collapsed. Hatched break segments are keyboard-accessible buttons that open leave settings directly.
+
+Release 1.2.14 enlarges the programme heading to match the DDS PEP form: 18 px on desktop and 15 px on mobile.
