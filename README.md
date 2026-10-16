@@ -1,15 +1,15 @@
 # Personal Education Plan Builder
 
-Version 1.2.14 — 16 October 2026.
+Version 1.2.16 — 16 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
 Choose your specialisation, path where applicable, and previous education. Required courses are preselected. Add courses or projects to either academic year and review the scheduling warnings.
 
 - Planning uses recurring Year 1 and Year 2, September to August, rather than an absolute calendar year. Flexible blocks start on month boundaries and end at the nearest month end after duration calculation. Study-guide links remain annual references.
-- A short introduction can be skipped or reopened with Help. Undo and Redo restore recent changes. Autosave stores your plan in this browser; Save my curriculum planning downloads a portable draft.
+- A short introduction can be skipped or reopened with Help. Undo and Redo restore recent changes. Autosave stores your plan in this browser; Save current build downloads a portable draft.
 - On mobile, switch between a course list and a calendar. Add courses and edit blocks through drawers.
-- Export PDF becomes available at 120 EC. The A3 landscape PDF contains only the selected timeline, workload overview, year totals and applicable warnings. It fits both years onto one landscape page when the rows fit legibly; dense timelines and detailed warnings use additional pages.
+- Export to PDF becomes available at 120 EC. The A3 landscape PDF contains only the selected timeline, workload overview, year totals and applicable warnings. It fits both years onto one landscape page when the rows fit legibly; dense timelines and detailed warnings use additional pages.
 - Export for PEP approval downloads a schema 2 draft that can be opened directly with **Open draft** in the [DDS PEP generator](https://dannyscholten.github.io/dds-pep/2026/). Complete the personal and research details there, then follow the coordinator and examination board approval process. An exported plan is not an approval.
 - A Year 1 major start maps to Part I + Part II registration; a Year 2 start maps to the single 48 EC variant. PEP export requires the compulsory courses because the PEP generator always includes them.
 
@@ -62,3 +62,7 @@ Version 1.2.12 adds a direct link to the official DDS Teaching and Examination R
 Release 1.2.13 adds contextual help beside the course bar and canvas titles. Research details label optional settings as Days per week & leave with the current values visible while collapsed. Hatched break segments are keyboard-accessible buttons that open leave settings directly.
 
 Release 1.2.14 enlarges the programme heading to match the DDS PEP form: 18 px on desktop and 15 px on mobile.
+
+Release 1.2.15 updates the toolbar labels to Save current build, Open previous build and Export to PDF. The introduction explains contextual help icons and direct leave editing from hatched breaks. Help and browser-save errors use the current button names.
+
+Release 1.2.16 matches the PEP heading hierarchy: mixed-case, regular navy programme name and a larger bold VU-blue builder title, with responsive sizes.
