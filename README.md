@@ -1,6 +1,6 @@
 # Drug Discovery Sciences Personal Curriculum Planner
 
-Version 1.2.10 — 16 October 2026.
+Version 1.2.11 — 16 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -52,3 +52,7 @@ Version 1.2.8 keeps the missing-Didactics-period warning in the main overview wi
 Version 1.2.9 removes the duplicate Teaching periods box from Didactics details. Adding a course or project with a valid default schedule returns directly to the canvas after choosing the year. Didactics details open immediately only while its required periods are missing. New unlisted courses return to the canvas after their own form is completed. Clicking a placed course still opens its details.
 
 Version 1.2.10 fixes literature-thesis default placement: it considers every permitted month start, including May, and favours a non-summer placement among options with the same research overlap. A Year 2 September major ending in April is therefore followed by a May–June thesis, rather than June–July. Existing saved placements remain unchanged.
+
+Version 1.2.11 asks for a literature-thesis start month whenever no research-free two-month placement fits outside July and August. The thesis stays unplaced until the student chooses, and browser autosave preserves the unfinished choice.
+
+The planner now uses the PEP 0.9.1 / DDS-2026-2027.10 composition baseline and schema 2 export. Downloaded files were tested through the live tool’s Open draft workflow for split and single major routes, preserving 120 EC and selections without import changes. Host details still need completion in PEP 0.9.1.
