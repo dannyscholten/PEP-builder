@@ -1,6 +1,6 @@
 # Personal Education Plan Builder
 
-Version 1.2.16 — 16 October 2026.
+Version 1.2.17 — 16 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -66,3 +66,5 @@ Release 1.2.14 enlarges the programme heading to match the DDS PEP form: 18 px o
 Release 1.2.15 updates the toolbar labels to Save current build, Open previous build and Export to PDF. The introduction explains contextual help icons and direct leave editing from hatched breaks. Help and browser-save errors use the current button names.
 
 Release 1.2.16 matches the PEP heading hierarchy: mixed-case, regular navy programme name and a larger bold VU-blue builder title, with responsive sizes.
+
+Release 1.2.17 uses the current DDS PEP heading sizes: programme 18 px and main title 29 px; main title 25 px below 850 px; programme 15 px and main title 22 px below 540 px. Compact spacing reduces header height while retaining its colours and hierarchy.
