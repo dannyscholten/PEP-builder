@@ -1,6 +1,6 @@
 # Personal Education Plan Builder
 
-Version 1.3.0 — 17 October 2026.
+Version 1.3.1 — 17 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -78,3 +78,5 @@ Release 1.2.20 synchronises the catalogue and export rule engine with PEP 0.10.4
 Release 1.3.0 adds Education with separate 60 EC DDS and 60 EC Education checks. DDS courses and the compulsory 30 EC full-time major stay in Year 1; the major starts in February, March or April without leave or part-time controls. Education courses are fixed to Year 2 September-route periods. Startweek is a 0 EC late-August Year 1 reminder. Restricted elective and prerequisite rules, the paired Wereldburgerschap choice and mandatory unlisted-course component allocation are enforced. School practice and zero-EC components are excluded from the regular-course workload count. PEP exports target 0.10.5 / DDS-2026-2027.13 / JSON schema 2.
 
 The footer includes the same feedback-form link and wording as the PEP approval tool.
+
+Release 1.3.1 keeps period and date information out of the PEP Additional explanation field. Planning data remains in the separate plannerTransfer metadata; existing explanation text is preserved.
