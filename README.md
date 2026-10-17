@@ -1,6 +1,6 @@
 # Personal Education Plan Builder
 
-Version 1.2.19 — 17 October 2026.
+Version 1.2.20 — 17 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -72,3 +72,5 @@ Release 1.2.17 uses the current DDS PEP heading sizes: programme 18 px and main 
 Release 1.2.18 enables Export for PEP approval only from 120 EC and enforces that minimum when generating the draft. Help refers to courses and projects and uses the canvas for dragging instructions.
 
 Release 1.2.19 updates the PEP handoff popup and button to PEP approval form, Import draft PEP and Open PEP approval tool. Rechecked save/open, PDF export, live PEP import and mobile interactions.
+
+Release 1.2.20 synchronises the catalogue and export rule engine with PEP 0.10.4 / DDS-2026-2027.13, including corrected Education course codes. Education courses remain unavailable in the builder until the programme owner confirms their scheduling rules. Research-specialisation course options are unchanged.
