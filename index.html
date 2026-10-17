@@ -3482,7 +3482,7 @@ function researchDays(s){return s.daysPerWeek??Number(s.fte)*5;}
 function migrateResearchSettings(s){if(!s)return;s.daysPerWeek=researchDays(s);s.fte=s.daysPerWeek/5;s.leaveWeeks=Number(s.leaveWeeks||0)+Number(s.pauseWeeks||0);s.pauseWeeks=0;}
 function legacyResearchSettings(row,s,problem){return isResearch(row)&&((problem?.startsWith('Choose 3–5')&&researchDays(s)>0&&researchDays(s)<3)||(problem?.startsWith('Enter 0–8')&&s.leaveWeeks>8));}
 function defaultSchedule(row,year=targetYear){
- if(isEducation())return educationDefaultSchedule(row); 
+ if(isEducation())return educationDefaultSchedule(row);
  const src=sourceMap[row.id],fixed=src?.sourceType==='fixed_period';
  if(fixed){const start=periodBounds(year,customPeriods[row.id]?.first||src.suggestedPeriods[0])[0],end=periodBounds(year,customPeriods[row.id]?.last||src.suggestedPeriods[0])[1];return {start:iso(start),end:iso(end),year,fte:1,leaveWeeks:0,pauseWeeks:0};}
  if(row.id==='XM_0196'){return {start:iso(periodBounds(year,1)[0]),end:iso(periodBounds(year,5)[1]),year,fte:1,leaveWeeks:0,pauseWeeks:0};}
