@@ -1,6 +1,6 @@
 # Personal Education Plan Builder
 
-Version 1.2.20 — 17 October 2026.
+Version 1.3.0 — 17 October 2026.
 
 Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
 
@@ -74,3 +74,7 @@ Release 1.2.18 enables Export for PEP approval only from 120 EC and enforces tha
 Release 1.2.19 updates the PEP handoff popup and button to PEP approval form, Import draft PEP and Open PEP approval tool. Rechecked save/open, PDF export, live PEP import and mobile interactions.
 
 Release 1.2.20 synchronises the catalogue and export rule engine with PEP 0.10.4 / DDS-2026-2027.13, including corrected Education course codes. Education courses remain unavailable in the builder until the programme owner confirms their scheduling rules. Research-specialisation course options are unchanged.
+
+Release 1.3.0 adds Education with separate 60 EC DDS and 60 EC Education checks. DDS courses and the compulsory 30 EC full-time major stay in Year 1; the major starts in February, March or April without leave or part-time controls. Education courses are fixed to Year 2 September-route periods. Startweek is a 0 EC late-August Year 1 reminder. Restricted elective and prerequisite rules, the paired Wereldburgerschap choice and mandatory unlisted-course component allocation are enforced. School practice and zero-EC components are excluded from the regular-course workload count. PEP exports target 0.10.5 / DDS-2026-2027.13 / JSON schema 2.
+
+The footer includes the same feedback-form link and wording as the PEP approval tool.
