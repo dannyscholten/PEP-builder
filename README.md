@@ -1,14 +1,14 @@
 # Personal Education Plan Builder (Cohort 2026)
 
-Version 1.4.0 — 19 October 2026.
+Version 1.4.1 — 19 October 2026.
 
-[Open the PEP Builder](https://dannyscholten.github.io/dds-curriculum-planner/)
+[Open the PEP Builder](https://dannyscholten.github.io/PEP-builder/)
 
 A student-facing, browser-based builder for a 120 EC Drug Discovery Sciences programme. It supports research specialisations and Education in Drug Discovery, with relative Year 1/Year 2 planning. A build supports preparation; it does not grant institutional approval.
 
 ## Build and review
 
-Select specialisation, path where applicable, and previous education to preload required courses. The **Course Catalog** groups **Compulsory components** and **Elective space**. Use **+** and choose the academic year, or drag courses and projects onto the **PEP Builder Canvas**. Category guidance is behind **i** buttons. Clicking a colored canvas legend label opens the matching catalog category; **Research project(s)** opens both major and minor groups.
+Select specialisation, path where applicable, and previous education to preload required courses. The **Course Catalog** groups **Compulsory components** and **Elective space**. Use **+** and choose the academic year, or drag courses and projects onto the **PEP Builder Canvas**. **+ Add unlisted course** is at the bottom of **Elective space** in the catalog. Category guidance is behind **i** buttons. Clicking a colored canvas legend label opens the matching catalog category; **Research project(s)** opens both major and minor groups.
 
 Added courses have consistent edit and remove controls in the catalog and canvas. Compulsory Education components retain their removal restriction. Required research-specialisation courses can be removed for review, with unmet curriculum checks and export restrictions where applicable.
 
@@ -29,7 +29,7 @@ The EC total and warning count stay visible at the top. Curriculum checks identi
 
 ## Mobile
 
-The default phone view is a year-specific course list; Calendar offers a horizontally scrollable visual overview. **+ Add courses & projects** opens the catalog. A legend shortcut opens that catalog at the chosen category. Newly added courses switch the list to their assigned year.
+The default phone view is a year-specific course list; Calendar offers a horizontally scrollable visual overview. **+ Add courses & projects** stays visible in the sticky header while scrolling and opens the catalog. A legend shortcut opens that catalog at the chosen category. Newly added courses switch the list to their assigned year.
 
 The sticky phone header keeps EC and warnings visible. **Build actions** opens save/open, history/reset, help and export controls without requiring sideways toolbar scrolling. Touch targets, full-height catalog scrolling, bottom course actions and safe-area spacing are adapted for phones. Desktop retains the visible toolbar and side catalog.
 
@@ -41,7 +41,7 @@ The footer links to the DDS Teaching and Examination Regulations 2026–2027 and
 
 GitHub Pages serves the `main` branch root. Readable development sources live in the separate planner workspace; `python3 src/build.py` rebuilds the standalone file and this Pages package. Storage keys, saved-build kinds and schema remain compatible with existing builds.
 
-## Verification for 1.4.0
+## Verification
 
 Verified with the actual application code in DOM emulation: all legend routes, catalog/canvas removal, Education restrictions, popup cancellation and Confirm/Undo, save/open payload round-trips, PEP schema 2 import, new-warning notices, and tour restoration. Responsive interaction branches were checked at 320, 390, 700, 768 and 1456 px. Research and Education PDF outputs were rendered and visually inspected, including checklist continuation and missing-requirement states.
 
