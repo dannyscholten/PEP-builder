@@ -1,82 +1,48 @@
-# Personal Education Plan Builder
+# Personal Education Plan Builder (Cohort 2026)
 
-Version 1.3.1 — 17 October 2026.
+Version 1.4.0 — 19 October 2026.
 
-Published with GitHub Pages from the main branch root. All planning and saving happens in your browser; no backend is used.
+[Open the PEP Builder](https://dannyscholten.github.io/dds-curriculum-planner/)
 
-Choose your specialisation, path where applicable, and previous education. Required courses are preselected. Add courses or projects to either academic year and review the scheduling warnings.
+A student-facing, browser-based builder for a 120 EC Drug Discovery Sciences programme. It supports research specialisations and Education in Drug Discovery, with relative Year 1/Year 2 planning. A build supports preparation; it does not grant institutional approval.
 
-- Planning uses recurring Year 1 and Year 2, September to August, rather than an absolute calendar year. Flexible blocks start on month boundaries and end at the nearest month end after duration calculation. Study-guide links remain annual references.
-- A short introduction can be skipped or reopened with Help. Undo and Redo restore recent changes. Autosave stores your plan in this browser; Save current build downloads a portable draft.
-- On mobile, switch between a course list and a calendar. Add courses and edit blocks through drawers.
-- Export to PDF becomes available at 120 EC. The A3 landscape PDF contains only the selected timeline, workload overview, year totals and applicable warnings. It fits both years onto one landscape page when the rows fit legibly; dense timelines and detailed warnings use additional pages.
-- Export for PEP approval downloads a schema 2 draft that can be opened directly with **Open draft** in the [DDS PEP generator](https://dannyscholten.github.io/dds-pep/2026/). Complete the personal and research details there, then follow the coordinator and examination board approval process. An exported plan is not an approval.
-- A Year 1 major start maps to Part I + Part II registration; a Year 2 start maps to the single 48 EC variant. PEP export requires the compulsory courses because the PEP generator always includes them.
+## Build and review
 
-The curriculum planner is maintained separately from the PEP tool. The PDF libraries are bundled locally under `vendor/`; their licenses and the embedded Noto Sans font license are included there.
+Select specialisation, path where applicable, and previous education to preload required courses. The **Course Catalog** groups **Compulsory components** and **Elective space**. Use **+** and choose the academic year, or drag courses and projects onto the **PEP Builder Canvas**. Category guidance is behind **i** buttons. Clicking a colored canvas legend label opens the matching catalog category; **Research project(s)** opens both major and minor groups.
 
-Readable development sources and the standalone offline build are kept in the local planner workspace. Run `python3 src/build.py` there to rebuild the standalone HTML and this Pages package.
+Added courses have consistent edit and remove controls in the catalog and canvas. Compulsory Education components retain their removal restriction. Required research-specialisation courses can be removed for review, with unmet curriculum checks and export restrictions where applicable.
 
-The major research project can start in Year 1 P5–P6 or Year 2 P1–P3. Older Year 2 P4 plans are retained with a warning so the start can be corrected.
+Click a placed course or project to open **Course details**. Regular courses show their teaching periods. Research projects and the literature thesis expose permitted start months; dates use month boundaries. For research projects, **Days per week & leave** contains optional adjustments. A hatched project segment opens leave settings directly. Education's 30 EC major is full-time without leave/part-time controls, in Year 1, starting February–April.
 
-The top toolbar groups Save/Open, the two exports, and Undo/Redo/Reset. Help reopens the introduction. PDF export is visibly disabled below 120 EC.
+**Confirm** keeps course edits. Clicking outside or pressing Escape discards unconfirmed course edits. Required-input additions are cancelled in full when their details are dismissed. Unconfirmed edits are not written to autosave or Undo history.
 
-Help uses the exact action labels. Status messages are shown in red directly below the action buttons. The PDF credit threshold is explained in the button tooltip.
+The EC total and warning count stay visible at the top. Curriculum checks identify met and unmet requirements. Workload/overlap warning cells link to detailed explanations; high-workload explanations identify the academic year and teaching period. New warnings appear briefly in orange at the top and remain in the detailed overview until resolved. Confirmations are green; errors are red. Routine confirmations disappear after 4.5 seconds and warning notices after 7 seconds.
 
-Routine status messages disappear after 4.5 seconds and the status panel collapses when empty. Errors and unresolved warnings persist. The calendar reuses available rows across categories; category affinity is preferred among free rows. RAS stays in its own top row. PDF export uses the same row arrangement.
+## Save and export
 
-Block details now open on demand, category guidance is behind information buttons, and literature thesis additions prefer available periods without research overlap. Plans above 120 EC show diploma-supplement guidance.
+- **Save build** downloads a portable build JSON file. **Open build** restores it.
+- Autosave keeps the confirmed build and recent Undo/Redo history in this browser. Browser storage is specific to the browser and site; use a build file when moving between devices or from the standalone file to the published website.
+- **Undo**, **Redo** and **Reset** are grouped beside save/open. Reset requires confirmation.
+- **Export PDF** is enabled from 120 EC once required placement choices are complete. It produces an A3 landscape visual overview, workload/overlap status, applicable scheduling warnings, curriculum checks with their actual status, and course tables grouped into Compulsory components and Elective space. Both years share an overview page when readable; further pages are added as necessary.
+- **Export for approval** creates a schema 2 PEP draft for **Import draft PEP** in the [DDS PEP approval tool](https://dannyscholten.github.io/dds-pep/2026/). Complete personal/project details and exception requests in that tool. The transfer targets PEP 0.10.6, rule DDS-2026-2027.13. Planning dates remain in `plannerTransfer`; they are not inserted into Additional explanation.
+- A Year 1 research-specialisation major uses Part I + Part II registration; a Year 2 major uses the single 48 EC variant. Education has its own 30 EC major.
 
-Version 1.2.2 simplifies course details, uses research days per week and a single 0–8-week leave/pause field, adds explicit course metadata and period summaries, and presents curriculum checks as a checklist.
+## Mobile
 
-Version 1.2.2 groups RAS under compulsory courses, combines major/minor legend entries, applies a coordinated pastel palette to the canvas and PDF, and refines the course details timing and action layout.
+The default phone view is a year-specific course list; Calendar offers a horizontally scrollable visual overview. **+ Add courses & projects** opens the catalog. A legend shortcut opens that catalog at the chosen category. Newly added courses switch the list to their assigned year.
 
-Reset form now clears all settings and selections after confirmation, with Undo available for recovery.
+The sticky phone header keeps EC and warnings visible. **Build actions** opens save/open, history/reset, help and export controls without requiring sideways toolbar scrolling. Touch targets, full-height catalog scrolling, bottom course actions and safe-area spacing are adapted for phones. Desktop retains the visible toolbar and side catalog.
 
-Version 1.2.2 applies Clear & distinct with muted teal research projects; separates red overlap guidance from red high course workload; exposes study-guide links directly; and uses green checkmarks/red crosses in curriculum checks.
+The optional six-step interactive tour uses temporary fictional data and restores the user's own build when finished or skipped. The help icon restarts it; the introduction can be dismissed or hidden for future visits.
 
-Version 1.2.2 adopts the Clear & distinct palette with muted teal research projects. Workload uses red overlap guidance and red high-workload guidance; checklist boxes use a white check on dark green or white X on red. Study-guide links are directly visible. Course categories start collapsed when settings load or a saved plan opens, with compact added-count badges and selected-course Edit buttons.
+## Sources, privacy and maintenance
 
-Version 1.2.3 makes overlap warnings red in the canvas, detailed warning overview and PDF, while preserving their separate explanations.
+The footer links to the DDS Teaching and Examination Regulations 2026–2027 and the programme feedback form. Annual Study Guide references remain linked for each course. All calculations and files run locally in the browser; there is no application backend. PDF libraries and font assets are bundled under `vendor/`, with licenses included.
 
-Version 1.2.4 places end dates directly below start dates, displays duration summaries, moves research days and leave into More options, simplifies explanatory text, and spells out Alpha/gamma electives in the legend. PEP export targets the verified current form 0.9.0 / schema 2 and includes target version metadata.
+GitHub Pages serves the `main` branch root. Readable development sources live in the separate planner workspace; `python3 src/build.py` rebuilds the standalone file and this Pages package. Storage keys, saved-build kinds and schema remain compatible with existing builds.
 
-Version 1.2.5 places warning explanations below the final timeline wherever space remains, creating continuation pages only when needed.
+## Verification for 1.4.0
 
-Version 1.2.6 clarifies the Theory part and Practical part period selectors for Didactics of Science Supervision, with months shown for each period. Both parts may share a period.
+Verified with the actual application code in DOM emulation: all legend routes, catalog/canvas removal, Education restrictions, popup cancellation and Confirm/Undo, save/open payload round-trips, PEP schema 2 import, new-warning notices, and tour restoration. Responsive interaction branches were checked at 320, 390, 700, 768 and 1456 px. Research and Education PDF outputs were rendered and visually inspected, including checklist continuation and missing-requirement states.
 
-Version 1.2.7 requires deliberate selection of both Didactics periods. Confirm, file saving and exports are disabled until both are selected; browser autosave preserves unfinished edits. Each part has an information button with teaching guidance. Existing saved period choices are preserved.
-
-Version 1.2.8 keeps the missing-Didactics-period warning in the main overview without duplicating it in course details. Workload sections are titled Workload or overlap issues and omit the legend in the planner and PDF.
-
-Version 1.2.9 removes the duplicate Teaching periods box from Didactics details. Adding a course or project with a valid default schedule returns directly to the canvas after choosing the year. Didactics details open immediately only while its required periods are missing. New unlisted courses return to the canvas after their own form is completed. Clicking a placed course still opens its details.
-
-Version 1.2.10 fixes literature-thesis default placement: it considers every permitted month start, including May, and favours a non-summer placement among options with the same research overlap. A Year 2 September major ending in April is therefore followed by a May–June thesis, rather than June–July. Existing saved placements remain unchanged.
-
-Version 1.2.11 asks for a literature-thesis start month whenever no research-free two-month placement fits outside July and August. The thesis stays unplaced until the student chooses, and browser autosave preserves the unfinished choice.
-
-The planner now uses the PEP 0.9.1 / DDS-2026-2027.10 composition baseline and schema 2 export. Downloaded files were tested through the live tool’s Open draft workflow for split and single major routes, preserving 120 EC and selections without import changes. Host details still need completion in PEP 0.9.1.
-
-Version 1.2.12 adds a direct link to the official DDS Teaching and Examination Regulations 2026–2027 immediately below the planner title. The link is the PDF currently provided by the programme’s VU Study Guide.
-
-Release 1.2.13 adds contextual help beside the course bar and canvas titles. Research details label optional settings as Days per week & leave with the current values visible while collapsed. Hatched break segments are keyboard-accessible buttons that open leave settings directly.
-
-Release 1.2.14 enlarges the programme heading to match the DDS PEP form: 18 px on desktop and 15 px on mobile.
-
-Release 1.2.15 updates the toolbar labels to Save current build, Open previous build and Export to PDF. The introduction explains contextual help icons and direct leave editing from hatched breaks. Help and browser-save errors use the current button names.
-
-Release 1.2.16 matches the PEP heading hierarchy: mixed-case, regular navy programme name and a larger bold VU-blue builder title, with responsive sizes.
-
-Release 1.2.17 uses the current DDS PEP heading sizes: programme 18 px and main title 29 px; main title 25 px below 850 px; programme 15 px and main title 22 px below 540 px. Compact spacing reduces header height while retaining its colours and hierarchy.
-
-Release 1.2.18 enables Export for PEP approval only from 120 EC and enforces that minimum when generating the draft. Help refers to courses and projects and uses the canvas for dragging instructions.
-
-Release 1.2.19 updates the PEP handoff popup and button to PEP approval form, Import draft PEP and Open PEP approval tool. Rechecked save/open, PDF export, live PEP import and mobile interactions.
-
-Release 1.2.20 synchronises the catalogue and export rule engine with PEP 0.10.4 / DDS-2026-2027.13, including corrected Education course codes. Education courses remain unavailable in the builder until the programme owner confirms their scheduling rules. Research-specialisation course options are unchanged.
-
-Release 1.3.0 adds Education with separate 60 EC DDS and 60 EC Education checks. DDS courses and the compulsory 30 EC full-time major stay in Year 1; the major starts in February, March or April without leave or part-time controls. Education courses are fixed to Year 2 September-route periods. Startweek is a 0 EC late-August Year 1 reminder. Restricted elective and prerequisite rules, the paired Wereldburgerschap choice and mandatory unlisted-course component allocation are enforced. School practice and zero-EC components are excluded from the regular-course workload count. PEP exports target 0.10.5 / DDS-2026-2027.13 / JSON schema 2.
-
-The footer includes the same feedback-form link and wording as the PEP approval tool.
-
-Release 1.3.1 keeps period and date information out of the PEP Additional explanation field. Planning data remains in the separate plannerTransfer metadata; existing explanation text is preserved.
+These checks do not substitute for physical-device Safari/Chrome testing. Native on-screen keyboard, touch scrolling, browser download/share behaviour and screen-reader use remain recommended device checks.
