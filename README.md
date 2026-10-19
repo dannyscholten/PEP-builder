@@ -1,6 +1,6 @@
 # Personal Education Plan Builder (Cohort 2026)
 
-Version 1.4.1 — 19 October 2026.
+Version 1.4.2 — 19 October 2026.
 
 [Open the PEP Builder](https://dannyscholten.github.io/PEP-builder/)
 
@@ -8,15 +8,17 @@ A student-facing, browser-based builder for a 120 EC Drug Discovery Sciences pro
 
 ## Build and review
 
-Select specialisation, path where applicable, and previous education to preload required courses. The **Course Catalog** groups **Compulsory components** and **Elective space**. Use **+** and choose the academic year, or drag courses and projects onto the **PEP Builder Canvas**. **+ Add unlisted course** is at the bottom of **Elective space** in the catalog. Category guidance is behind **i** buttons. Clicking a colored canvas legend label opens the matching catalog category; **Research project(s)** opens both major and minor groups.
+Select specialisation, path where applicable, and previous education to preload required courses. The **Course Catalog** groups **Compulsory components** and **Elective space**. Use **+** and choose the academic year, or drag courses and projects onto the **PEP Builder Canvas**. **+ Add unlisted course** is at the bottom of **Elective space** in the catalog. Category guidance is behind **i** buttons. Clicking a colored canvas legend label opens the matching catalog category and closes the previously opened categories; **Research project(s)** opens both major and minor groups.
 
 Added courses have consistent edit and remove controls in the catalog and canvas. Compulsory Education components retain their removal restriction. Required research-specialisation courses can be removed for review, with unmet curriculum checks and export restrictions where applicable.
 
-Click a placed course or project to open **Course details**. Regular courses show their teaching periods. Research projects and the literature thesis expose permitted start months; dates use month boundaries. For research projects, **Days per week & leave** contains optional adjustments. A hatched project segment opens leave settings directly. Education's 30 EC major is full-time without leave/part-time controls, in Year 1, starting February–April.
+For an unlisted course, choose its **Start period** and **Finish period**; select the same period for a one-period course.
+
+Click a placed course or project to open **Course details**. Regular courses show their teaching periods with the involved months, for example Period 1 (September–October). Research projects and the literature thesis expose permitted start months; dates use month boundaries. For research projects, **Days per week & leave** contains optional adjustments. A hatched project segment opens leave settings directly. Education's 30 EC major is full-time without leave/part-time controls, in Year 1, starting February–April.
 
 **Confirm** keeps course edits. Clicking outside or pressing Escape discards unconfirmed course edits. Required-input additions are cancelled in full when their details are dismissed. Unconfirmed edits are not written to autosave or Undo history.
 
-The EC total and warning count stay visible at the top. Curriculum checks identify met and unmet requirements. Workload/overlap warning cells link to detailed explanations; high-workload explanations identify the academic year and teaching period. New warnings appear briefly in orange at the top and remain in the detailed overview until resolved. Confirmations are green; errors are red. Routine confirmations disappear after 4.5 seconds and warning notices after 7 seconds.
+The logo/title, action toolbar and selection fields share a centered workspace width above the canvas on wide screens. The version and links are centered in the footer. The EC total and warning count stay visible at the top. Curriculum checks identify met and unmet requirements. Workload/overlap warning cells link to detailed explanations; high-workload explanations identify the academic year and teaching period. New warnings appear briefly in orange at the top and remain in the detailed overview until resolved. Confirmations are green; errors are red. Routine confirmations disappear after 4.5 seconds and warning notices after 7 seconds.
 
 ## Save and export
 
