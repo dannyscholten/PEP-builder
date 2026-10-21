@@ -1,6 +1,6 @@
-# Personal Education Plan Builder (Cohort 2026)
+# Personal Education Plan Builder
 
-Version 1.4.3 — 19 October 2026.
+Version 1.4.4 — 21 October 2026.
 
 [Open the PEP Builder](https://dannyscholten.github.io/PEP-builder/)
 
@@ -19,6 +19,15 @@ Click a placed course or project to open **Course details**. Regular courses sho
 **Confirm** keeps course edits. Clicking outside or pressing Escape discards unconfirmed course edits. Required-input additions are cancelled in full when their details are dismissed. Unconfirmed edits are not written to autosave or Undo history.
 
 The logo/title, action toolbar and selection fields align to the visible outer edges of the combined catalog and canvas, excluding page gutters, on wide screens. The version and links are centered in the footer. The EC total and warning count stay visible at the top. Curriculum checks identify met and unmet requirements. Workload/overlap warning cells link to detailed explanations; high-workload explanations identify the academic year and teaching period. New warnings appear briefly in orange at the top and remain in the detailed overview until resolved. Confirmations are green; errors are red. Routine confirmations disappear after 4.5 seconds and warning notices after 7 seconds.
+
+## Changes in 1.4.4
+
+- Cohort selector (2026), a cohort-independent title, and a required acknowledgement before the canvas opens.
+- Separate Research and academic skills category in Mist blue; Required for specialisation retains its existing blue. Principles, RAS and required specialisation courses added with + go directly to Year 1. A confirmed warning allows Year 2 placement.
+- Flexible dragging uses the course start edge, consistently from any grab position, and snaps to permitted month starts.
+- A Year 1 minor defaults to no leave and finishes in August. Optional leave remains available, with a warning if the plan extends beyond August.
+- Period labels sit above month labels on the canvas. The setup instruction disappears once the required settings are complete.
+- Expanded footer guidance and Canvas Community link. PDF exports include the full curriculum disclaimer and a generation date at the top right of every page (Europe/Amsterdam).
 
 ## Save and export
 
