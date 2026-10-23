@@ -1,6 +1,6 @@
 # Personal Education Plan Builder
 
-Version 1.4.5 — 22 October 2026.
+Version 1.4.6 — 23 October 2026.
 
 [Open the PEP Builder](https://dannyscholten.github.io/PEP-builder/)
 
@@ -64,4 +64,8 @@ PDF overview axes now show periods above months, matching the canvas. Footer gui
 
 ## Approval handoff link
 
-The approval tool is now [PEP Approval](https://dannyscholten.github.io/pep-approval/2026/). Export for approval downloads the JSON course selection; use Open draft in PEP Approval. The repository rename and button wording do not change the exported curriculum data.
+The approval tool is now [PEP Approval](https://dannyscholten.github.io/PEP-approval/2026/). Export for approval downloads the JSON course selection; use Open draft in PEP Approval. The repository rename and button wording do not change the exported curriculum data.
+
+## Changes in 1.4.6
+
+Updated the approval handover link to the renamed PEP-approval website. Exported course selections and the saved-build format are unchanged. Only the current build is published; commit history is retained for recovery.
